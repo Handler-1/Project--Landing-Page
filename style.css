@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #152238;
+    width: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 16px;
+    gap: 16px;
+    list-style-type: none;
+}
+
+/* remove lines under links */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.small-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.signin {
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.signin:hover {
+    background-color: #808080;
+}
+
+.top {
+    background-color: #274472;
+    width: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.top-message {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.header-pic {
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.headline {
+    max-width: 500px;
+    height: auto;
+    font-size: 2.5em;
+    margin-bottom: 4px;
+    color:white;
+}
+
+.headline-exp {
+    max-width: 700px;
+    height: auto;
+    font-size: 1em;
+    margin-bottom: 4px;
+    color: white;
+    filter:contrast(0.9);
+}
+
+.join {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80px;
+    height: auto;
+    font-size: 1em;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.join:hover {
+    background-color: #808080;
+}
+
+.middle {
+    background-color: #52698E;
+    width: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.middle-message {
+    color: white;
+    padding: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.middle-question{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom {
+    background-color: #274472;
+    width: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+blockquote {
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    width: 60%;
+    margin: 60px auto;
+    font-style: italic;
+    color: white;
+    padding: 1.2em 30px 1.2em 75px;
+    border-left: 8px solid #60FFDC;
+    line-height: 1.6;
+    position: relative;
+}
+
+blockquote::before {
+    font-family: Arial;
+    content: "\201C";
+    color: #60FFDC;
+    font-size: 4em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
+
+blockquote::after {
+    font-family: Arial;
+    content: "\201E";
+    color: #60FFDC;
+    font-size: 4em;
+    position: absolute;
+    right: 10px;
+    bottom: 90px;
+}
+
+.credit {
+    display: block;
+    font-style: italic;
+    margin-top: 1em;
+    text-align: right;
+}
+
+.box {
+    background-color: #52698E;
+    width: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 500px;
+    margin-left: 500px;
+    gap: 100px;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 25px;
+    padding: 32px;
+}
+
+.flex-item-right, .flex-item-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.sent-one {
+    font-size: 1.5em;
+    color: white;
+}
+
+.sent-two {
+    font-size: 1em;
+    color: white;
+}
+
+.startedbutton {
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.startedbutton:hover {
+    background-color: #808080;
+}
+
+.last-section{
+    background-color: #152238;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.end {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
